@@ -44,4 +44,4 @@ class GameOfLife:
         return count
 
     def toggle_cell(self, row, col) -> None:
-        self.grid[row][col] = not self.grid[row][col]
+        self.grid[row][col] = True
